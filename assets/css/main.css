@@ -1,0 +1,110 @@
+/*
+Site made by Kad, aliases KadTheHunter, KaddicusAlmighty, Kadalyst.
+*/
+
+/* VARIABLES */
+:root {
+    --background: rgb(32, 35, 36);
+    --altbackground: rgb(65, 70, 73);
+    --text: rgb(200, 200, 200);
+    --alttext: rgb(0, 255, 0);
+    --h4: rgb(0, 255, 255);
+}
+
+/* LINKS */
+
+a {
+    color: rgb(73, 193, 248);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 121, 255);
+}
+
+/* HEADER */
+header {
+    color: rgb(200, 200, 200);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+.LogoText {
+    font-size: 4.5vw;
+    color: rgb(73, 193, 248);
+}
+
+.KadLogo {
+    display: flex;
+    justify-content: center;
+}
+
+/* BODY */
+body {
+    align-items: center;
+    text-align: center;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    word-wrap: break-word;
+    padding: 6%;
+}
+
+/* CARDS */
+div.Projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+div.Projects > card {
+    border: 5px solid var(--altbackground);
+    border-radius: 10px;
+    position: relative;
+    transition: transform .2s;
+}
+
+div.Projects > card:hover {
+    transform: scale(1.05);
+}
+
+div.Projects > card a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+div.Projects > card > h4 {
+    color: var(--h4);
+}
+
+/* YLYL: ETERNAL */
+.lg-backdrop {
+    background-color: rgba(32, 35, 36, 0.6);
+}
+
+.lg-sub-html {
+    background-color: var(--background);
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    color: var(--alttext);
+    text-align: center;
+    font-family: 'Lucida Console', sans-serif;
+    font-size: 14px;
+}
