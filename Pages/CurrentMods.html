@@ -8,6 +8,7 @@
     <link href="/assets/CurrentMods_favicon.ico" rel="icon" type="image/png"/>
     <meta charset="UTF-8">
     <meta content="width=device=width, initial-scale=1" name="viewport"/>
+    <link href="../assets/datatables/css/datatables.min.css" rel="stylesheet" type="text/css"/>
     <link href="../assets/css/main.min.css" rel="stylesheet"/>
 </head>
 
@@ -15,22 +16,65 @@
     <span class="LogoText"><a href="../index.html">Kadalyst</a></span>
     <p class="KadLogo">
         <a href="../index.html">
-            <img src="../assets/KadLogo.png" alt="">
+            <img alt="" src="../assets/CurrentModsLogo.png">
         </a>
     </p>
-    <h2>Hi :]</h2>
+    <h2>Current Mods v1.20.1</h2>
     <hr>
-    <p>Below is a list of my projects and important things, hope you find it useful.</p>
-    <p>Click on a card to check it out :D</p>
+    <p>Below is a table of all the mods currently in use in my main Minecraft instance, excluding libraries.</p>
+    <p>I tried to avoid CurseForge, but it's unavoidable, as some authors haven't had the decency (or time, but usually decency) to use Modrinth.</p>
+    <p>The notes aren't really that important, but I find them incredibly funny, and couldn't resist writing them.</p>
+    <p>Click on a name to go to the download page :D</p>
 </header>
 
 <body>
 <main>
-
+    <div class="center">
+        <table id="mods">
+            <thead>
+            <tr>
+                <th>Mod</th>
+                <th>Description</th>
+                <th>Notes</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
 </main>
 <div class="footer">
     <p>Created by Kadalyst</p>
 </div>
+
+<script src="../assets/js/jquery-3.7.0.min.js"></script>
+
+<script type="text/javascript" charset="UTF-8" src="../assets/datatables/js/datatables.min.js"></script>
+
+<script>
+    $(function () {
+        $("#mods").dataTable({
+            ajax: {
+                url: '/assets/CurrentMods/Modlist.json',
+                dataSrc: ''
+            },
+            columns: [
+                {data: 'Mod'},
+                {data: 'Description'},
+                {data: 'Notes'}
+            ],
+            columnDefs: [
+                {
+                    width: '33%',
+                    targets: [0, 1, 2]
+                }
+            ],
+            // Disable ALL the attachments
+            paging: false,
+            searching: false,
+            ordering:  false
+        });
+    });
+</script>
+
 </body>
 
 </html>

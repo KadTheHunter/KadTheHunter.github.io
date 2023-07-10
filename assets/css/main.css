@@ -8,6 +8,7 @@ Site made by Kad, aliases KadTheHunter, KaddicusAlmighty, Kadalyst.
     --altbackground: rgb(65, 70, 73);
     --text: rgb(200, 200, 200);
     --alttext: rgb(0, 255, 0);
+    --tableborder: rgb(48, 52, 54);
     --h4: rgb(0, 255, 255);
 }
 
@@ -94,6 +95,37 @@ div.Projects > card > h4 {
 
 .lg-sub-html {
     background-color: var(--background);
+}
+
+/* CURRENT MODS */
+
+td,
+th {
+    border: 1px solid var(--tableborder);
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    color: rgba(73, 193, 248, 0.8);
+}
+
+td {
+    color: var(--text);
+}
+
+td a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    white-space: normal;
+}
+
+td:hover {
+    background-color: var(--altbackground);
 }
 
 /* FOOTER */
