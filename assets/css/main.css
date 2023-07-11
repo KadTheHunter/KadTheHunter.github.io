@@ -56,6 +56,40 @@ body {
     padding: 6%;
 }
 
+/* BUTTONS */
+button.button {
+    align-items: center;
+    background-color: var(--altbackground);
+    border: 0;
+    border-radius: 200px;
+    box-sizing: border-box;
+    color: var(--h4);
+    cursor: pointer;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 28px;
+    max-width: 50%;
+    padding: 14px 22px;
+    text-decoration: none;
+    transition: all .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button.button:hover {
+    background-color: var(--background);
+}
+
+@media (min-width: 768px) {
+    .button {
+        font-size: 20px;
+        min-width: 200px;
+        padding: 14px 16px;
+    }
+}
+
 /* CARDS */
 div.Projects {
     display: grid;
@@ -139,4 +173,8 @@ td:hover {
     text-align: center;
     font-family: 'Lucida Console', sans-serif;
     font-size: 14px;
+}
+
+.footer a {
+    color: var(--alttext);
 }
