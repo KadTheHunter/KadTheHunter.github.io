@@ -131,8 +131,16 @@ div.Projects > card > h4 {
     background-color: var(--background);
 }
 
-/* CURRENT MODS */
+.img-responsive {
+    cursor: pointer;
+    transition: transform .2s;
+}
 
+.img-responsive:hover {
+    transform: scale(1.05);
+}
+
+/* CURRENT MODS */
 td,
 th {
     border: 1px solid var(--tableborder);
