@@ -175,6 +175,11 @@
     "Notes": "<i>I never realized how much I needed the ability to do things while resources load until I got this mod</i>"
   },
   {
+    "Mod": "<a href=\"https://github.com/DAMcraft/MeteorServerSeeker/releases/tag/latest\" target=\"_blank\" rel=\"noopener noreferrer\">Server Seeker v1.0.0 &#11088;</a>",
+    "Description": "Makes use of the ServerSeekerAPI to automatically seek and add servers matching given criteria",
+    "Notes": "<i>Almost feels illegal how easy it is to stalk players and see what servers they join</i>"
+  },
+  {
     "Mod": "<a href=\"https://modrinth.com/mod/smoothmenu-refabricated/version/1.0.0\" target=\"_blank\" rel=\"noopener noreferrer\">Smooth Menu Refabricated v1.0.0</a>",
     "Description": "Removes the main menu FPS limit",
     "Notes": "<i>\"Dear Mojang, WHY?! Why would you add an un-toggleable FPS limit in Menus?!?\"</i>"
