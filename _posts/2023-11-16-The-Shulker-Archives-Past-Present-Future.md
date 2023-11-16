@@ -1,7 +1,7 @@
 ---
 title: "The Shulker Archives: Past, Present and Future"
 excerpt: "Now that the website for the Archives is NLM (No Longer Maintained), I've begun work to ensure that the collection of NBT housed there is not completely wasted."
-category: "The Shulker Archives"
+category: TheShulkerArchives
 tags:
   - minecraft
   - NBT
