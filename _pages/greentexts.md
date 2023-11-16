@@ -1,0 +1,11 @@
+---
+title: Greentexts
+excerpt: "Collection of the greatest multipart greentexts from 4chan"
+layout: collection
+permalink: /greentexts/
+collection: greentexts
+entries_layout: grid
+classes: wide
+---
+
+A collection of the greatest multipart greentexts from 4chan

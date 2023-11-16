@@ -13,16 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Shouting Into the Void
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Blog site for Kadalyst to shout into the void. 
+  Contains updates on the Shulker Archives, funny Greentext collections, and lots of random thoughts.
+url: "https://kadthehunter.github.io/"
+repository: "KadTheHunter/KadTheHunter.github.io"
+github_username: KadTheHunter
+minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
+
+# Suggested Settings
+locale: "en-US"
+title_separator: "|"
+name: "Kadalyst"
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "sitv"
+
+
 
 # Build settings
 markdown: kramdown
@@ -31,7 +42,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,34 +69,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Kadalyst"
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "I shout my thoughts into this void of a website when I'm not dicking around on the wider internet"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/KadTheHunter"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://steamcommunity.com/profiles/76561199020539963/"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/user/0sos1rbwubcd936ht6jty8e2n?si=385e4331f6c044bb"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/KadTheHunter"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://steamcommunity.com/profiles/76561199020539963/"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/user/0sos1rbwubcd936ht6jty8e2n?si=385e4331f6c044bb"
 
 defaults:
   # _posts
@@ -93,11 +101,12 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -106,6 +115,30 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _greentexts
+  - scope:
+      path: ""
+      type: greentexts
+    values:
+      layout: single
+      author_profile: false
+      share: false
+  # _pepejakreact
+  - scope:
+      path: ""
+      type: pepejakreact
+    values:
+      layout: single
+      author_profile: false
+      share: false
+  # _ai
+  - scope:
+      path: ""
+      type: ai
+    values:
+      layout: single
+      author_profile: false
+      share: false
 
 category_archive:
   type: liquid
@@ -113,3 +146,16 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Collections
+collections:
+  greentexts:
+    output: true
+    permalink: /:collection/:path/
+  pepejakreact:
+    output: true
+    permalink: /:collection/:path/
+  ai:
+    output: true
+    permalink: /:collection/:path/
+
