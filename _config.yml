@@ -131,14 +131,6 @@ defaults:
       layout: single
       author_profile: false
       share: false
-  # _ai
-  - scope:
-      path: ""
-      type: ai
-    values:
-      layout: single
-      author_profile: false
-      share: false
 
 category_archive:
   type: liquid
@@ -153,9 +145,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   pepejakreact:
-    output: true
-    permalink: /:collection/:path/
-  ai:
     output: true
     permalink: /:collection/:path/
 
