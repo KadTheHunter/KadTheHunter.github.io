@@ -3,7 +3,7 @@ main:
     url: /posts/
     description: "Blog Posts"
   - title: "Shulker Archives"
-    url: /shulkerarchives/
+    url: /ShulkerArchives/
     description: "The largest known curated collection of Shulker Kits and NBT Items"
   - title: "Greentexts"
     url: /greentexts/
