@@ -1,6 +1,7 @@
 ---
 title: "Ballad of Edgardo"
 excerpt: "The epic Ballad of Edgardo"
+order: 2
 header:
   teaser: assets/images/greentexts/ballad-of-edgardo/EdgardoCover.png
 gallery:

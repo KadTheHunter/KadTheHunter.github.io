@@ -1,6 +1,7 @@
 ---
 title: "Hole Depot"
 excerpt: "Anecdotes from working at Hole Depot"
+order: 4
 header:
   teaser: assets/images/greentexts/hole-depot/HoleDepotCover.png
 gallery:

@@ -1,6 +1,7 @@
 ---
 title: "Neal the Tard"
 excerpt: "The saga of Neal the Tard"
+order: 1
 header:
   teaser: assets/images/greentexts/neal-the-tard/NealCover.png
 gallery:

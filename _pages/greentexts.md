@@ -5,6 +5,8 @@ layout: collection
 permalink: /greentexts/
 collection: greentexts
 entries_layout: grid
+sort_by: order
+sort_order: reverse
 classes: wide
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Plague Doctor"
 excerpt: "The long and winding tale of the Plague Doctor"
+order: 3
 header:
   teaser: assets/images/greentexts/plague-doctor/PlagueDoctorCover.png
 gallery:
