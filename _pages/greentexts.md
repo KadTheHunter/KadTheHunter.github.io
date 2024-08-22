@@ -1,6 +1,6 @@
 ---
 title: Greentexts
-excerpt: "Collection of the greatest multipart greentexts from 4chan"
+excerpt: "Collection of the greatest posts from 4chan"
 layout: collection
 permalink: /greentexts/
 collection: greentexts
