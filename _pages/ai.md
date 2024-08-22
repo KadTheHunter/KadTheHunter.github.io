@@ -6,6 +6,30 @@ author_profile: false
 layout: single
 classes: wide
 gallery:
+  - url: assets/images/ai/images/AChillyAutumnAfternoonInAQuietMidwesternTown-1.png
+    image_path: assets/images/ai/images/AChillyAutumnAfternoonInAQuietMidwesternTown-1_Thumb.webp
+    title: "A chilly autumn afternoon in a quiet midwestern town | Styles ['Fooocus Photograph', 'Fooocus Negative', 'Fooocus Sharp']"
+    alt: "A Chilly Autumn Afternoon in a Quiet Midwestern Town"
+  - url: assets/images/ai/images/AChillyAutumnAfternoonInAQuietMidwesternTown-2.png
+    image_path: assets/images/ai/images/AChillyAutumnAfternoonInAQuietMidwesternTown-2_Thumb.webp
+    title: "A chilly autumn afternoon in a quiet midwestern town | Styles ['Fooocus Photograph', 'Fooocus Negative', 'Fooocus Sharp']"
+    alt: "A Chilly Autumn Afternoon in a Quiet Midwestern Town"
+  - url: assets/images/ai/images/ACreepyAndHauntedCornfieldAtNighttime-1.png
+    image_path: assets/images/ai/images/ACreepyAndHauntedCornfieldAtNighttime-1_Thumb.webp
+    title: "A creepy and haunted cornfield at nighttime | Styles ['SAI Anime', 'MRE Anime']"
+    alt: "A Creepy and Haunted Cornfield at Nighttime"
+  - url: assets/images/ai/images/ACreepyAndHauntedCornfieldAtNighttime-2.png
+    image_path: assets/images/ai/images/ACreepyAndHauntedCornfieldAtNighttime-2_Thumb.webp
+    title: "A creepy and haunted cornfield at nighttime | Styles ['SAI Anime', 'MRE Anime']"
+    alt: "A Creepy and Haunted Cornfield at Nighttime"
+  - url: assets/images/ai/images/ASmallBrookRunningThroughAForest-MKPollock.png
+    image_path: assets/images/ai/images/ASmallBrookRunningThroughAForest-MKPollock_Thumb.webp
+    title: "A small brook running through a forest | Styles ['Mk Pollock']"
+    alt: "A Small Brook Running Through A Forest"
+  - url: assets/images/ai/images/ASmallBrookRunningThroughAForest-MREDD.png
+    image_path: assets/images/ai/images/ASmallBrookRunningThroughAForest-MREDD_Thumb.webp
+    title: "A small brook running through a forest | Styles ['MRE Dark Dream']"
+    alt: "A Small Brook Running Through A Forest"
   - url: assets/images/ai/images/CoupleOnCliffStarrySky.png
     image_path: assets/images/ai/images/CoupleOnCliffStarrySky_Thumb.webp
     title: "A young woman and young man sitting on the edge of a cliff looking at the starry sky, the camera viewing them from behind with a tree on their right spreading out above them | Styles ['Fooocus V2', 'Fooocus Photograph', 'Fooocus Negative']"
