@@ -93,7 +93,7 @@ It was built between May 15th 2020 and July 31st 2020, and served as the primary
 ## Conversion to Java
 Unlike [Alinea-City]({{ site.baseurl }}{% post_url 2023-12-2-Alinea-City %}), I had (and have) the full world files to work with, and was able to convert them to Java with a minimum of missing or broken blocks. The largest issue was Signs, which I manually checked and repaired across the city.
 
-After this, it was simply a matter of extracting the city itself from the world, and pasting it into another world (which provided easier said than done, due to the extreme size of the schematic).
+After this, it was simply a matter of extracting the city itself from the world, and pasting it into another world (which proved easier said than done, due to the extreme size of the schematic).
 
 All in all a fairly fast conversion, with not much to remark on here.
 
@@ -109,4 +109,4 @@ You will need [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit
 - [CedarCove.schem](/assets/builds/cedarcove/CedarCove.schem)
 - [CedarCove.litematic](/assets/builds/cedarcove/CedarCove.litematic)
 
-You can also see the build on [PlanetMineCraft](https://www.planetminecraft.com/project/cedar-cove/); Be sure to give it a Diamond!**
+You can also see the build on [PlanetMineCraft](https://www.planetminecraft.com/project/cedar-cove/); Be sure to give it a Diamond!
