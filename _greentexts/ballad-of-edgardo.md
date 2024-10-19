@@ -86,6 +86,9 @@ gallery:
   - url: /assets/images/greentexts/ballad-of-edgardo/Edgardo27.png
     image_path: /assets/images/greentexts/ballad-of-edgardo/Edgardo27_Thumb.webp
     alt: "Ballad of Edgardo 27"
+  - url: /assets/images/greentexts/ballad-of-edgardo/OGEdgardoCollage.jpg
+    image_path: /assets/images/greentexts/ballad-of-edgardo/OGEdgardoCollage_Thumb.webp
+    alt: "Original Ballad of Edgardo Collage"
 
 ---
 
