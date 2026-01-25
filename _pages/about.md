@@ -13,6 +13,6 @@ I've also done many smaller projects, such as updating and expanding a [Nickname
 
 I'm a big fan of Free Open Source Software (FOSS), and refuse to succumb to any form of subscription model on the internet.
 
-My posts here cover a large variety of topics, from Minecraft NBT and Building, to cool software/websites I've found, AI generated content, Greentexts, and random brain bugs.
+My posts here cover a large variety of topics, from Minecraft NBT and Building, to cool software/websites I've found, Greentexts, and random brain bugs.
 
 Hope you enjoy :)
