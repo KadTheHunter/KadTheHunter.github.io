@@ -1,0 +1,54 @@
+---
+title: Odyssey Freedom
+permalink: /odysseyfreedom/
+---
+
+
+<!DOCTYPE html>
+<title>Oddysey Freedom</title>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=60g5XewkLRJbU0Jr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<html>
+    <br>ip logger
+    <h1>A COOL MINECRAFT SERVER</h1>
+    <hr />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=60g5XewkLRJbU0Jr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>The IP is at <code>of.ddns.net</code></p>
+    <style>body {background-color: hotpink;}</style>
+    <br>has anyone thought making the of site a copy of an old fbi site
+    <style>code { font-family: monospace; } </style>
+    <code>we have worldedit</code>
+    <p> lyicx loves nvidia</p>
+    <marquee>Please join!</marquee>
+    <h2>FUCK YOU</h2>
+    <sub>sorry</sub>
+    <p>This page is NOT valid HTML. Not validated.</p>
+    <br>thoughs?
+    <br>looks really good
+    <br>really thank you
+    <br>[Nvidia Enjoyer] Lyicx was killed
+    <br>L'Z
+    <html> <!-- Now it is -->
+    <br>Someone send this site to Kad so he can host it on the Github
+    <br>I was already gonna make it an actual file :kekw:
+    <br>JS what do you think we should add
+    <p>just cant host it</p>
+    <br>who copied my city over?
+    <p>This page is under construction!</p>
+    <i>am broke</i>
+    <br>Neocities :^)
+    <!--what why did that-->
+    <br>i did
+    <br>to take smth
+    <br>i can host ur shit
+    <h4>i just tpyed out a i tag and it worked like in miencraft</h4>
+    <p><a href="https://kernel.org">I LOVE LINUX. I HATE SPYWARE.</a></p>
+    <button onclick="this.remove()">button</button>
+    <script>alert("Disable JS.")</script>
+    <br>the page will just redirect to a rickroll
+    <br>no
+    <br>guys when do we stop
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=60g5XewkLRJbU0Jr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </body>
+    <br>im omitting that line
+    </html>
+    <br>thank you video
